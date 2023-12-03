@@ -16,6 +16,7 @@ def main():
         result = int(digit_string[0])*10 + int(digit_string[-1])
         sum = sum + result
 
+    input_file.close()
     return sum
 
 
