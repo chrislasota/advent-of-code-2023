@@ -61,6 +61,7 @@ def main():
         if fail_flag == False:
             game_sum = game_sum + game_number
 
+    input_file.close()
     return game_sum
 
 

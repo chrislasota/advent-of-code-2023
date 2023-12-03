@@ -57,6 +57,7 @@ def main():
         power = maximums[0] * maximums[1] * maximums[2]
         game_sum = game_sum + power
 
+    input_file.close()
     return game_sum
 
 
