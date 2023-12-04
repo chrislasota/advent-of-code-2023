@@ -48,4 +48,4 @@ In this example, the calibration values are `29`, `83`, `13`, `24`, `42`, `14`, 
 
 * Your puzzle answer was `54985`.
 
-***Both parts of this puzzle are complete! They provide two gold stars: \*\* ***
+### Both parts of this puzzle are complete! They provide two gold stars: \*\*
