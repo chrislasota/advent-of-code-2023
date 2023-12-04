@@ -33,6 +33,9 @@ Of course, the actual engine schematic is much larger. **What is the sum of all 
 
 * Your puzzle answer was `527446`.
 
+** The first half of this puzzle is complete! It provides one gold star: \* **
+
+
 # Part Two 
 
 The engineer finds the missing part and installs it in the engine! As the engine springs to life, you jump in the closest gondola, finally ready to ascend to the water source.
