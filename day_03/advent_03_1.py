@@ -85,17 +85,6 @@ def main():
                if mask_grid[row][column+1] == 'M':
                    mask_grid[row][column] = 'M'
 
-    for row in range(new_length):
-        for column in range(new_width):
-            if char_grid[row][column] in digit_characters:
-               if mask_grid[row][column-1] == 'M':
-                   mask_grid[row][column] = 'M'
-        for column in range(new_width-1, 0, -1):
-            if char_grid[row][column] in digit_characters:
-               if mask_grid[row][column+1] == 'M':
-                   mask_grid[row][column] = 'M'
-
-
     # replace all remaining 'M' chars with digits
     for row in range(new_length):
         for column in range(new_width):
