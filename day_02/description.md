@@ -57,5 +57,5 @@ For each game, find the minimum set of cubes that must have been present. **What
 
 * Your puzzle answer was `63542`.
 
-***Both parts of this puzzle are complete! They provide two gold stars: \*\* ***
+### Both parts of this puzzle are complete! They provide two gold stars: \*\*
 
