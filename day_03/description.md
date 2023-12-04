@@ -33,7 +33,7 @@ Of course, the actual engine schematic is much larger. **What is the sum of all 
 
 * Your puzzle answer was `527446`.
 
-** The first half of this puzzle is complete! It provides one gold star: \* **
+#### The first half of this puzzle is complete! It provides one gold star: \*
 
 
 # Part Two 
