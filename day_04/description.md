@@ -39,8 +39,6 @@ Take a seat in the large pile of colorful cards. **How many points are they wort
 
 * Your puzzle answer was `23678`
 
-### The first half of this puzzle is complete! It provides one gold star: \*
-
 ## Part Two
 
 Just as you're about to report your findings to the Elf, one of you realizes that the rules have actually been printed on the back of every card this whole time.
@@ -72,3 +70,6 @@ Once all of the originals and copies have been processed, you end up with `1` in
 
 Process all of the original and copied scratchcards until no more scratchcards are won. Including the original set of scratchcards, **how many total scratchcards do you end up with?**
 
+* Your puzzle answer was `15455663`.
+
+### Both parts of this puzzle are complete! They provide two gold stars: \*\*
