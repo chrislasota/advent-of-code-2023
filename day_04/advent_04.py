@@ -14,8 +14,7 @@ def main():
             numbers = line_parts[1].split('|')
 
             # create the list[] of winning numbers
-            winning_number_string = numbers[0].lstrip()
-            winning_number_string = winning_number_string.rstrip()
+            winning_number_string = numbers[0].lstrip().rstrip()
             winning_numbers = winning_number_string.split(' ')
             winning_list = []
             for item in winning_numbers:
@@ -23,8 +22,7 @@ def main():
                     winning_list.append(int(item))
 
             # create the list[] of played numbers
-            played_number_string = numbers[1].lstrip()
-            played_number_string = played_number_string.rstrip()
+            played_number_string = numbers[1].lstrip().rstrip()
             played_numbers = played_number_string.split(' ')
             played_list = []
             for item in played_numbers:
@@ -38,9 +36,9 @@ def main():
                     match_count += 1
             match_list.append(match_count)
 
-    # Done reading input file
+    # Done reading input file and creating match_list[]
 
-    # Create the answer for Part 1 using match data
+    # Create the answer for Part 1
     total_points = 0
     for i in range(len(match_list)):
         if match_list[i] > 0:
@@ -50,7 +48,7 @@ def main():
 
     # Create the answer for Part 2
     # Introduce an auxiliary accumulator list ( card_counts[] )
-    # If we pre-load this accumulator list with "1"s, the algorithm is short and sweet
+    # Pre-load the entire accumulator list with "1"s so that the algorithm is short and sweet
     card_counts = []
     for i in range(len(match_list)):
         card_counts.append(1)
@@ -58,10 +56,7 @@ def main():
         for k in range(match_list[i]):
             card_counts[i+k+1] += card_counts[i]
 
-    total_cards = 0
-    for cards in card_counts:
-        total_cards += cards
-
+    total_cards = sum(card_counts)
     print(f"Part 2 : Total scratchcards = {total_cards}")
 
     return
