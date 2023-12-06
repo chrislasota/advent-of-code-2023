@@ -45,17 +45,14 @@ def main():
             total_points = total_points + 2**(match_list[i] - 1)
     print(f"Part 1 : Total points = {total_points}")
 
-
     # Create the answer for Part 2
-    # Introduce an auxiliary accumulator list ( card_counts[] )
-    # Pre-load the entire accumulator list with "1"s so that the algorithm is short and sweet
-    card_counts = []
-    for i in range(len(match_list)):
-        card_counts.append(1)
+    # * introduce an auxiliary accumulator list ( card_counts[] )
+    # * pre-load the entire accumulator list with "1"s
+    # * run the algorithm to count the duplicates created by match counts
+    card_counts = [1 for _ in range(len(match_list))]
     for i in range(len(match_list)):
         for k in range(match_list[i]):
             card_counts[i+k+1] += card_counts[i]
-
     total_cards = sum(card_counts)
     print(f"Part 2 : Total scratchcards = {total_cards}")
 
