@@ -48,8 +48,6 @@ Determine the number of ways you could beat the record in each race. **What do y
 
 * Your puzzle answer was `140220`
 
-#### The first half of this puzzle is complete! It provides one gold star: \*
-
 ## Part Two
 
 As the race is about to start, you realize the piece of paper with race times and record distances you got earlier actually just has very bad kerning. There's really **only one race** - ignore the spaces between the numbers on each line.
@@ -68,3 +66,6 @@ Now, you have to figure out how many ways there are to win this single race. In 
 
 **How many ways can you beat the record in this one much longer race?**
 
+* Your puzzle answer was `39570185`
+
+### Both parts of this puzzle are complete! They provide two gold stars \*\*
