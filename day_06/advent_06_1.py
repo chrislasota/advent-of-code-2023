@@ -8,7 +8,7 @@ def main() -> int:
     ways_product = 1
     with open("input_day_06.txt", 'r') as input_file:
         # read in race times and record distances as arrays of stringified numbers
-        data_filter = re.compile('([0-9]+)')
+        data_filter = re.compile('\d+')
         race_times = data_filter.findall(input_file.readline())
         record_distances = data_filter.findall(input_file.readline())
 
