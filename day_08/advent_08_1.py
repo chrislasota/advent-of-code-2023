@@ -7,6 +7,7 @@ import re
 def main() -> int:
     # This code emulates a finite state automata to recognize whether or not the string
     # of 'L' and 'R' characters at the top of the input file is in a particular grammar
+    # We start in state 'AAA' and count how many steps it takes to arrive at state 'ZZZ'
     number_of_steps = 0
     transition_function = {}
     with open("input_day_08.txt", 'r') as input_file:
@@ -16,18 +17,18 @@ def main() -> int:
         for line in input_file:
             states = state_filter.findall(line)
             transition_function[states[0]] = [states[1], states[2]]
-        current_state = "AAA"
-        halting_flag = False
-        while not halting_flag:
-            for instruction in instructions:
-                if instruction == 'L':
-                    current_state = transition_function[current_state][0]
-                else:
-                    current_state = transition_function[current_state][1]
-                number_of_steps += 1
-                if current_state == "ZZZ":
-                    halting_flag = True
-                    break
+    current_state = "AAA"
+    halting_flag = False
+    while not halting_flag:
+        for instruction in instructions:
+            if instruction == 'L':
+                current_state = transition_function[current_state][0]
+            else:
+                current_state = transition_function[current_state][1]
+            number_of_steps += 1
+            if current_state == "ZZZ":
+                halting_flag = True
+                break
     return number_of_steps
 
 
