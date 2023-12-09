@@ -31,6 +31,7 @@ def main() -> int:
             for value in new_sequence:
                 if value != 0:
                     nonzero = True
+                    break
             if nonzero == True:
                 temp_sequence = new_sequence
                 new_sequence = []
