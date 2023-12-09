@@ -5,8 +5,9 @@
 import re
 
 def main() -> int:
-    # This code emulates a finite state automata to recognize whether or not the string
-    # of 'L' and 'R' characters at the top of the input file is in a particular grammar
+    # This code acts like a finite state automata to recognize whether or not a particular string
+    # composed of 'L' and 'R' characters is a particular grammar.  The string is a non-integral
+    # multiple concatenation of the string given at the top of thee input file.
     # We start in state 'AAA' and count how many steps it takes to arrive at state 'ZZZ'
     number_of_steps = 0
     transition_function = {}
