@@ -36,7 +36,6 @@ Starting at `AAA`, follow the left/right instructions. **How many steps are requ
 
 * Your puzzle answer was `22199`
 
-#### The first half of this puzzle is complete! It provides on gold star: \*
 
 ## Part Two
 
@@ -73,5 +72,7 @@ So, in this example, you end up entirely on nodes that end in `Z` after **`6`** 
 
 Simultaneously start on every node that ends with `A`. **How many steps does it take before you're only on nodes that end with Z?**
 
+* Your puzzle answer was 13334102464297
 
+### Both parts of this puzzle are complete! They provide two gold stars: \*\*
 
