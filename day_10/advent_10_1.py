@@ -22,11 +22,15 @@ def main() -> int:
     # Done reading input file
 
     # Find 'S' starting position
+    found_S = False
     for row in range(len(pipe_map)):
+        if found_S == True:
+            break
         line = pipe_map[row]
         for column in range(len(line)):
             if line[column] == 'S':
                 s_row, s_column = row, column
+                found_S = True
                 break
 
     # THIS NEXT PART IS UGLY UGLY UGLY!!!
@@ -45,7 +49,6 @@ def main() -> int:
         pipe_char = pipe_map[s_row + 1][s_column]
         if pipe_char == 'J' or pipe_char == '|' or pipe_char == 'L':
             down = True
-
     if up and left:
         current_char = 'J'
     if up and down:
@@ -63,8 +66,7 @@ def main() -> int:
     previous_location = (s_row, s_column)
     row = s_row
     column = s_column
-    back_home = False
-    while not back_home:
+    while True:
         displacement_1 = move_dict[current_char][0]
         displacement_2 = move_dict[current_char][1]
         new_row = row + displacement_1[0]
@@ -74,7 +76,6 @@ def main() -> int:
             new_column = column + displacement_2[1]
         total_steps += 1
         if new_row == s_row and new_column == s_column:
-            back_home = True
             break
         current_char = pipe_map[new_row][new_column]
         previous_location = (row, column)
