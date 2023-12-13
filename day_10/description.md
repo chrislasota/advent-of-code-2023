@@ -107,7 +107,6 @@ Find the single giant loop starting at `S`. **How many steps along the loop does
 
 * Your puzzle answer was `7066`
 
-#### The first half of this puzzle is complete! It provides one gold star: \*
 
 ## Part Two
 
@@ -208,4 +207,8 @@ L7JLJL-JLJLJL--JLJ.L
 In this last example, `10` tiles are enclosed by the loop.
 
 Figure out whether you have time to search for the nest by calculating the area within the loop. **How many tiles are enclosed by the loop?**
+
+* Your puzzle answer was `401`
+
+### Both parts of this puzzle are complete! They provide two gold stars: \*\*
 
