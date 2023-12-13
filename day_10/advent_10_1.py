@@ -2,8 +2,6 @@
 # Day 10
 # Part 1
 
-import re
-
 def main() -> int:
     total_steps = 0
     # tuples below are displacements (delta_row, delta_column)
