@@ -58,7 +58,6 @@ Find the rank of every hand in your set. **What are the total winnings?**
 
 * Your puzzle answer was `248559379`
 
-#### The first half of this puzzle is complete! It provides one gold star: \*
 
 ## Part Two
 
@@ -84,3 +83,6 @@ With the new joker rule, the total winnings in this example are `5905`.
 
 Using the new joker rule, find the rank of every hand in your set. **What are the new total winnings?**
 
+* Your puzzle answer was `249631254`.
+
+### Both parts of this puzzle are complete! They provide two gold stars: \*\*
