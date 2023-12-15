@@ -60,4 +60,4 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    print(f"The number of steps to the furthest location is : {main()}")
+    print(f"The total load on the north support beams is : {main()}")
