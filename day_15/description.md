@@ -71,8 +71,6 @@ Run the HASH algorithm on each step in the initialization sequence. **What is th
 
 * Your puzzle answer was `507291`.
 
-#### The first half of this puzzle is complete! It provides one gold star: \*
-
 
 ## Part Two
 
@@ -166,3 +164,6 @@ So, the above example ends up with a total focusing power of **`145`**.
 
 With the help of an over-enthusiastic reindeer in a hard hat, follow the initialization sequence. **What is the focusing power of the resulting lens configuration?**
 
+* Your puzzle answer was `296921`.
+
+### Both parts of this puzzle are complete! They provide two gold stars: \*\*
