@@ -2,8 +2,6 @@
 # Day 11
 # Part 1
 
-import re
-
 def main() -> int:
     sum_of_lengths = 0
     galaxy_map = []
@@ -59,4 +57,4 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    print(f"The number of steps to the furthest location is : {main()}")
+    print(f"The sum of pairwise lengths between galaxies is : {main()}")
