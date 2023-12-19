@@ -56,4 +56,4 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    print(f"The number of steps to the furthest location is : {main()}")
+    print(f"The sum of pairwise lengths between galaxies is : {main()}")
